@@ -1,0 +1,46 @@
+body {
+    padding: 2rem;
+    margin-top: 13rem;
+    background: grey;
+}
+img{
+    height: 3rem;
+    width: auto;
+}
+h1,h2,h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.main-content-header{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10rem;
+}
+.main-content{
+    background: #737272;
+    margin-right: 0;
+    border-radius: 2rem;
+}
+.main-content-cripto{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 5rem;
+
+}
+.main-content-cripto a{
+    padding:10px;
+    text-decoration: none;
+    color:black;
+}
+.main-price-content{
+    gap: 1rem;
+}
